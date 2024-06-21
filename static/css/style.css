@@ -3,26 +3,122 @@
     margin: 0;
     text-decoration: none;
 }
+:root {
+    --azul: #0273B7;
+}
 .inicio {
     height: 100vh;
     width: 100vw;
 }
-.cinza {
-    background-color: #CCCC99;
+.azul {
+    background-color: var(--azul);
+}
+main {
+    height: 100vh   ;
+}
+body {
+    overflow-y: hidden;
+}       
+.aviso {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.d-flex {
+    display: flex;
+}
+.mapa {
+    position: fixed;
+    bottom: 0;
+    left: 0     ;
+}
+.position_button {
+    left: 15vw;
+    bottom: 40vh;
+}
+.p-absolute{
+    position: absolute;
+}
+.btn_escondido {
+    background-color: white;
+    color: white;
+    border: none;
+}
+/* LOCAIS */
+.local1 {
+    position: relative;
+    left: 70vw;
+    bottom: 60vh;
+    height: 100px;
+    width: 120px;
 }
 .local1:hover {
     border: 10px white solid;
 }
-.local1 {
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-    background-color: red;
+.local2 {
+    position: relative;
+    left: 30vw;
+    bottom: 59vh;
+    height: 100px;
+    width: 250px;
+}
+.local2:hover {
+    border: 10px white solid;
+}
+.local3 {
+    position: relative;
+    left: 56vw;
+    bottom: 101vh;
     height: 100px;
     width: 100px;
 }
-.aviso {
-    position: absolute;
-    top: 100px;
-    left: 600px;
+.local3:hover {
+    border: 10px white solid;
+}
+.local4 {
+    position: relative;
+    left: 2vw;
+    bottom: 80vh;
+    height: 140px;
+    width: 100px;
+}
+.local4:hover {
+    border: 10px white solid;
+}
+.local5 {
+    position: relative;
+    left: 15vw;
+    bottom: 119vh;
+    height: 200px;
+    width: 200px;
+}
+.local5:hover {
+    border: 10px white solid;
+}
+.local6 {
+    position: relative;
+    left: 60vw;
+    bottom: 114vh;
+    height: 100px;
+    width: 200px;
+}
+.local6:hover {
+    border: 10px white solid;
+}
+.local7 {
+    position: relative;
+    left: 88vw;
+    bottom: 115vh;
+    height: 100px;
+    width: 100px;
+}
+.local7:hover {
+    border: 10px white solid;
+}
+.local_secreto {
+    position: relative;
+    left: 91vw;
+    bottom: 149vh;
+    height: 50px;
+    width: 100px;
 }
